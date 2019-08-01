@@ -1,18 +1,18 @@
 {
   "development": {
-    "username": "root",
+    "username": "robert",
     "password": null,
-    "database": "database_development",
+    "database": "restaurant_database_development",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "dialect": "postgres",
     "operatorsAliases": false
   },
   "test": {
-    "username": "root",
+    "username": "robert",
     "password": null,
-    "database": "database_test",
+    "database": "restaurant_database_test",
     "host": "127.0.0.1",
-    "dialect": "mysql",
+    "dialect": "postgres",
     "operatorsAliases": false
   },
   "production": {
