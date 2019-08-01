@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
     active: DataTypes.BOOLEAN
   }, {});
   menu_item.associate = function(models) {
-    // associations can be defined here
+    menu_item.belongsTo(models.category)
   };
   return menu_item;
 };
